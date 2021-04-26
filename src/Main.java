@@ -11,7 +11,7 @@ public class Main {
         Warriors warriors = new Warriors();
 
         Scanner scanner = new Scanner(System.in);
-        int tries = 0;
+        int attempt = 0;
         int options = 2;
         Characters[] characters = new Characters[4];
         try {
@@ -22,7 +22,7 @@ public class Main {
             System.out.println("Please Select The Characters: ");
             System.out.println("1: Wizzard \n2: Warriors  ");
             options = scanner.nextInt();
-            while (tries < 5) {
+            while (attempt < 5) {
 
 
                 if (options == 1) {
@@ -60,7 +60,7 @@ public class Main {
                 }
 
 
-                tries++;
+                attempt++;
 
             }
 
